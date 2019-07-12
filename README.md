@@ -6,7 +6,7 @@ A Hospede é uma startup que busca melhorar o consumo e estadia em hotéis por m
 
 ## Objetivo 
 
-Temos alguns objetivos com esse desafio, e esperamos te conhecer pelo seu código. 
+Temos alguns objetivos com este desafio, e esperamos te conhecer pelo seu código. 
 
 O que esperamos aprender sobre você nesse desafio: 
  - Seu estilo de código.
@@ -16,7 +16,7 @@ O que esperamos aprender sobre você nesse desafio:
 
 ## Sobre o desafio
 
-Iremos criar um projeto chamado "MinhaLista" onde você terá a liberdade de criar sua própria identidade visual para o sistema. Precisamos que nosso projeto tenha alguns requisitos: 
+Iremos criar um projeto chamado `MinhaLista` onde você terá a liberdade de criar sua própria identidade visual para o sistema. Precisamos que nosso projeto tenha alguns requisitos: 
 
  - Autenticar o usuário e manter logado na aplicação.
  - Consumir API para manipular os dados(CRUD).
@@ -25,8 +25,8 @@ Iremos criar um projeto chamado "MinhaLista" onde você terá a liberdade de cri
 
 ## Considerações 
 
- - Esse desafio precisa ser entregue na data estipulada na entrevista, se não der tempo para terminar o projeto por algum motivo, iremos ter uma conversa para entender os motivos.
- - Não limitamos o uso de ferramentas ou tecnologias no desafio, queremos perfis que solucionem problemas independente da tecnologia.
+ - Este desafio precisa ser entregue na data estipulada na entrevista, se não tiver tempo para terminar o projeto por algum motivo, terá uma oportunidade para conversar sobre o projeto.
+ - Não limitamos o uso de ferramentas ou tecnologias no desafio, queremos perfis que foquem nos resultados.
  - Escreva nas melhores práticas que voce conhecer, todos os detalhes serão avaliados pela nossa equipe.
  
  **Não se esqueça que nós iremos olhar seu desafio e voce terá a chance de explicar o código, tecnologias e problemas que enfrentou em um conversa descontraída de dev para dev**
@@ -34,10 +34,23 @@ Iremos criar um projeto chamado "MinhaLista" onde você terá a liberdade de cri
 ## Regras 
 
  - Só aceitaremos desafios entregues em repositórios.
- - Crie uma página de cadastro usando a api (**http://challenge.payparty.com.br/users**) para se registrar o usuário.
+ - Crie uma página de cadastro usando a api para se registrar o usuário.
+
+````
+    URL: http://challenge.payparty.com.br/users
+    Method: POST
+    Body : {
+        name: Fulano da silva
+        email: fulanodasilva@email.com
+        password: 1234
+    }
+
+````
+
+
  - Crie uma página de autenticação usando a api (**http://challenge.payparty.com.br/users/auth**) para autenticar o usuário na plataforma.
  - Crie uma página que irá cadastrar, listar, editar e remove uma tarefa(CRUD), importante se atentar a não deixar desprotegido para quem não estiver logado acessar essa página.
- - Coloque a função deslogar(importante ter persistência)
+ - Coloque a função sair onde ele irá para página de autenticação.
 
  
 ## Ajuda
