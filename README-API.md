@@ -6,7 +6,7 @@
 
 Creates user.
 
-`POST http://challenge.payparty.com.br/users`
+`POST http://challenge.payparty.com.br/v1/users`
 
 ```
 body: {
@@ -28,7 +28,7 @@ body: {
 
 Authenticates user.
 
-`POST http://challenge.payparty.com.br/users/auth`
+`POST http://challenge.payparty.com.br/v1/users/auth`
 
 ```
 body: {
@@ -52,7 +52,7 @@ body: {
 
 Creates to-do item.
 
-`POST http://challenge.payparty.com.br/users/:user/todo`
+`POST http://challenge.payparty.com.br/v1/users/:user/todo`
 
 ```
 headers: {
@@ -79,7 +79,7 @@ body: {
 
 Modifies to-do item.
 
-`PUT http://challenge.payparty.com.br/users/:user/todo/:todo`
+`PUT http://challenge.payparty.com.br/v1/users/:user/todo/:todo`
 
 ```
 headers: {
@@ -107,7 +107,7 @@ body: {
 
 Deletes to-do item.
 
-`DELETE http://challenge.payparty.com.br/users/:user/todo/:todo`
+`DELETE http://challenge.payparty.com.br/v1/users/:user/todo/:todo`
 
 ```
 headers: {
@@ -132,7 +132,7 @@ params: {
 
 Gets all to-do items created by user.
 
-`GET http://challenge.payparty.com.br/users/:user/todo`
+`GET http://challenge.payparty.com.br/v1/users/:user/todo`
 
 ```
 headers: {
