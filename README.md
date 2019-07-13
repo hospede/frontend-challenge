@@ -14,7 +14,7 @@ O que esperamos aprender sobre você nesse desafio:
  - Sua organização em um projeto.
  
 
-## Sobre o desafio
+## Sobre o desafio  
 
 Iremos criar um projeto chamado `MinhaLista` onde você terá a liberdade de criar sua própria identidade visual para o sistema. Precisamos que nosso projeto tenha alguns requisitos: 
 
