@@ -35,23 +35,11 @@ Iremos criar um projeto chamado `MinhaLista` onde você terá a liberdade de cri
 
  - Só aceitaremos desafios entregues em repositórios.
  - Crie uma página de cadastro usando a api para se registrar o usuário.
-
-````
-    URL: http://challenge.payparty.com.br/users
-    Method: POST
-    Body : {
-        name: Fulano da silva
-        email: fulanodasilva@email.com
-        password: 1234
-    }
-
-````
-
-
- - Crie uma página de autenticação usando a api (**http://challenge.payparty.com.br/users/auth**) para autenticar o usuário na plataforma.
- - Crie uma página que irá cadastrar, listar, editar e remove uma tarefa(CRUD), importante se atentar a não deixar desprotegido para quem não estiver logado acessar essa página.
+ - Crie uma página de autenticação usando a api para logar o usuário na plataforma.
+ - Crie uma página que irá cadastrar, listar, editar e remover uma tarefa(CRUD), importante se atentar a não deixar desprotegido para quem não estiver logado acessar essa página.
  - Coloque a função sair onde ele irá para página de autenticação.
 
+**importante**: A documentação da API para utilizar no projeto se encontra em **https://github.com/hospede/frontend-challenge/blob/master/README-API.md**
  
 ## Ajuda
 
