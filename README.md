@@ -20,7 +20,7 @@ Iremos criar um projeto chamado `MinhaLista` onde você terá a liberdade de cri
 
  - Autenticar o usuário e manter logado na aplicação.
  - Consumir API para manipular os dados(CRUD).
- - Ter o botão deslogar, limpando o usuário da sessão e automaticando não deixando acessar pela barra de navegação a lista de afazeres.
+ - Ter o botão deslogar, limpando o usuário da sessão e não deixando acessar pela barra de navegação a lista de afazeres.
 
 
 ## Considerações 
